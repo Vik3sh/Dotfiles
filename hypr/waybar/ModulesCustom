@@ -41,25 +41,15 @@
 	"tooltip-format": "File Manager",
 },
 
-"custom/tty": {
-	"format": " ",
-	"on-click": "$HOME/.config/hypr/scripts/WaybarScripts.sh --term",
-	"tooltip": true,
-	"tooltip-format": "Launch Terminal",
-},
 
-"custom/browser": {
-	"format": " ",
-	"on-click": "xdg-open https://",
-	"tooltip": true,
-	"tooltip-format": "Launch Browser",
-},
+
+
 
 "custom/settings": {
-	"format": " ",
-	"on-click": "$HOME/.config/hypr/scripts/Kool_Quick_Settings.sh",
-	"tooltip": true,
-	"tooltip-format": "Launch KooL Hyprland Settings Menu",
+    "format": " ",
+    "on-click": "XDG_CURRENT_DESKTOP=GNOME gnome-control-center",
+    "tooltip": true,
+    "tooltip-format": "Ubuntu Settings"
 },
 
 "custom/cycle_wall": {
@@ -71,13 +61,13 @@
 	"tooltip-format": "Left Click: Wallpaper Menu\nMiddle Click: Random wallpaper\nRight Click: Waybar Styles Menu",
 },
 
-"custom/hint": {
-	"format": "󰺁 HINT!",
-	"on-click": "$HOME/.config/hypr/scripts/KeyHints.sh",
-	"on-click-right": "$HOME/.config/hypr/scripts/KeyBinds.sh",
-	"tooltip": true,
-	"tooltip-format": "Left Click: Quick Tips\nRight Click: Keybinds",
-},
+//"custom/hint": {
+//	"format": "󰺁 HINT!",
+//	"on-click": "$HOME/.config/hypr/scripts/KeyHints.sh",
+//	"on-click-right": "$HOME/.config/hypr/scripts/KeyBinds.sh",
+//	"tooltip": true,
+//	"tooltip-format": "Left Click: Quick Tips\nRight Click: Keybinds",
+//},
 
 // External monitor brightness (ddcutil)
 "custom/brightness_external": {
@@ -149,12 +139,12 @@
 	"escape": false
 },
 
-"custom/lock": {
-	"format": "󰌾",
-	"on-click": "$HOME/.config/hypr/scripts/LockScreen.sh",
-	"tooltip": true,
-	"tooltip-format": "󰷛 Screen Lock",
-},
+//"custom/lock": {
+//	"format": "󰌾",
+//	"on-click": "$HOME/.config/hypr/scripts/LockScreen.sh",
+//	"tooltip": true,
+//	"tooltip-format": "󰷛 Screen Lock",
+//},
 
 "custom/menu": {
 	"format": "  ",

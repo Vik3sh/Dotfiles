@@ -13,6 +13,6 @@
 -- hl.workspace_rule({
 --     workspace = "1",
 --     monitor = "eDP-1",
---     layout = "scrolling",
+--     layout = "monocle",
 -- })
 hl.workspace_rule({ workspace = "2", monitor = "eDP-1", layout = "dwindle" })

@@ -17,7 +17,7 @@ window {
 /* ---- Entry input ---- */
 entry {
   expand: true;
-  placeholder: " ⚙️  Manage User Defaults  ⚙️";
+  placeholder: "   Manage User Defaults  ";
   horizontal-align: 0.5;
 }
 

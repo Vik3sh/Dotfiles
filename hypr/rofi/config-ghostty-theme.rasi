@@ -38,7 +38,7 @@ inputbar {
 
 entry {
   expand: true;
-  placeholder: " 👻  Choose Ghostty theme: Enter to Apply";
+  placeholder: "   Choose Ghostty theme: Enter to Apply";
 }
 
 /* ---- Listview ---- */
